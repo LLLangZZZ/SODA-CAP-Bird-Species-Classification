@@ -13,18 +13,6 @@ The code is kept as a method-level reference for the paper rather than a fully r
 - `soda_cap/augment.py` - SODA-CAP training-time policy augmenter.
 - `soda_cap/build_policy.py` - class-wise complementary policy construction from cached validation behavior.
 - `soda_cap/plot_class_strategy_evolution*.py` - scripts used to visualize class-wise augmentation distributions.
-- `docs/Version3.pdf` - the manuscript version used to guide this cleaned release.
-- `docs/figures/` - paper-related workflow and policy visualizations.
-
-## What Was Removed
-
-- Trained checkpoints and pretrained weights: `*.pth`.
-- Large tensor caches and prediction caches: `*.pt`, `*.npz`, `*.npy`.
-- Generated policy/result files: `*.json`, result `*.csv`, cache directories, and `soda_cap/output/`.
-- Dataset quality-control and cleaning scripts.
-- Offline pitch-shift dataset generation scripts.
-- PSO/JOAS exploratory code under `adajoint/`, because the final manuscript presents the lighter SODA-CAP policy rather than that exploratory optimization path.
-- Python bytecode caches and temporary files.
 
 ## Method Summary
 
